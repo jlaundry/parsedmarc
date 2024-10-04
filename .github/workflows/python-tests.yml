@@ -5,7 +5,9 @@ permissions:
 
 on:
   push:
-    branches: [ master ]
+    branches:
+      - master
+      - update-test
   pull_request:
     branches: [ master ]
 
