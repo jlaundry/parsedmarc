@@ -42,7 +42,7 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install .
-        pip install hatch myst-parser[linkify] nose pytest pytest-cov ruff sphinx
+        pip install hatch myst-parser[linkify] nose pytest pytest-cov ruff sphinx sphinx_rtd_theme
     - name: Test building documentation
       run: |
         cd docs
