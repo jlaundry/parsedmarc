@@ -67,7 +67,7 @@ cli = [
     "boto3>=1.16.63",
     "elasticsearch-dsl==7.4.0",
     "elasticsearch<7.14.0",
-    "kafka-python-ng>=2.2.2"
+    "kafka-python-ng>=2.2.2",
     "opensearch-py>=2.4.2,<=3.0.0",
     "pygelf>=0.4.2",
 ]
