@@ -52,7 +52,7 @@ jobs:
         ruff check .
     - name: Run unit tests
       run: |
-        pytest --cov --cov-report=xml
+        pytest --cov --cov-report=xml tests.py
     - name: Test sample DMARC reports
       run: |
         pip install -e .
